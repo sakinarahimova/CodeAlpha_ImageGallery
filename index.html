@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Simple Lightbox</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header></header>
+<main>
+    <section class="section section1">
+        <h1>Image Gallery</h1>
+    </section>
+    <section class="section section2">
+        <div>
+            <p>Categories</p>
+        </div>
+        <div class="buttons">
+            <button class="categories-button selected">All</button>
+            <button class="categories-button">Abstract</button>
+            <button class="categories-button">Nature</button>
+            <button class="categories-button">Portrait</button>
+        </div>
+    </section>
+    <section class="section section3">
+        <div class="image-card">
+            <img class="card-images" src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=600">
+            <img class="card-images" src="https://images.unsplash.com/photo-1433477155337-9aea4e790195?w=620&auto=format&fit=crop&q=60&ixlib=rb-4.1.0">
+            <img class="card-images" src="https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=620&auto=format&fit=crop&q=60&ixlib=rb-4.1.0">
+            <img class="card-images" src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=600">
+            <img class="card-images" src="https://images.unsplash.com/photo-1433477155337-9aea4e790195?w=620&auto=format&fit=crop&q=60&ixlib=rb-4.1.0">
+            <img class="card-images" src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=600">
+            <img class="card-images" src="https://images.unsplash.com/photo-1433477155337-9aea4e790195?w=620&auto=format&fit=crop&q=60&ixlib=rb-4.1.0">
+            <img class="card-images" src="https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=620&auto=format&fit=crop&q=60&ixlib=rb-4.1.0">
+            <img class="card-images" src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=600">
+            <img class="card-images" src="https://images.unsplash.com/photo-1433477155337-9aea4e790195?w=620&auto=format&fit=crop&q=60&ixlib=rb-4.1.0">
+            <img class="card-images" src="https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=620&auto=format&fit=crop&q=60&ixlib=rb-4.1.0">
+        </div>
+    </section>
+    <section>
+        <div id="lightbox">
+            <div class="lightbox-container">
+                <div class="big-img-container">
+                    <span id="closeBtn">×</span>
+                    <img id="big-img">
+                </div>
+                <div class="controls">
+                    <button id="prevBtn">Prev</button>
+                    <button id="nextBtn">Next</button>
+                </div>
+                </div>
+            </div>
+    </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
