@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Simple Lightbox</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<header></header>
+<header>
+    <div class="header-container">
+        <div class="logo-container"><img src="./icons/ourGallery.svg" alt=""></div>
+        <div style="display: none;" class="logo-container-hamburger"><img src="./icons/ourGallery.svg" alt=""></div>
+        <div class="menu">
+            <p>Contact</p>
+            <p>About</p>
+            <p>Explore</p>
+        </div>
+        <div class="login-button-container">
+            <button class="login-button">LogIn</button>
+        </div>
+    </div>
+</header>
 <main>
     <section class="section section1">
         <h1>Image Gallery</h1>
@@ -16,10 +30,10 @@
             <p>Categories</p>
         </div>
         <div class="buttons">
-            <button class="categories-button selected">All</button>
-            <button class="categories-button">Abstract</button>
-            <button class="categories-button">Nature</button>
-            <button class="categories-button">Portrait</button>
+            <button class="categories-button selected all-button">All</button>
+            <button class="categories-button abstract-button">Abstract</button>
+            <button class="categories-button nature-button">Nature</button>
+            <button class="categories-button portrait-button">Portrait</button>
         </div>
     </section>
     <section class="section section3">
@@ -34,6 +48,7 @@
             <img class="card-images" src="https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=620&auto=format&fit=crop&q=60&ixlib=rb-4.1.0">
             <img class="card-images" src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=600">
             <img class="card-images" src="https://images.unsplash.com/photo-1433477155337-9aea4e790195?w=620&auto=format&fit=crop&q=60&ixlib=rb-4.1.0">
+            <img class="card-images" src="https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=620&auto=format&fit=crop&q=60&ixlib=rb-4.1.0">
             <img class="card-images" src="https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=620&auto=format&fit=crop&q=60&ixlib=rb-4.1.0">
             <img class="card-images" src="https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=620&auto=format&fit=crop&q=60&ixlib=rb-4.1.0">
         </div>
