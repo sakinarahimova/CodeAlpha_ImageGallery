@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+header{
+    background-color: rgba(216, 205, 162 ,0.3);
+}
 html{
     font-size: 18px;
 }
@@ -19,8 +22,14 @@ html{
     gap: 2rem;
     cursor: pointer;
 }
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.36rem;
+}
 .login-button{
-   font-size: 1.3rem;
+   font-size: 1.1rem;
+   background-color: #F5BD02;
    padding: 0.6rem 2.3rem;
    border-radius: 1000px;
    cursor: pointer;
@@ -32,7 +41,7 @@ section{
     margin-bottom: 1.5rem;
 }
 .section1 > h1{
-    font-size: 5rem;
+    font-size: 5em;
     margin-bottom: 1rem;
 }
 .section2{
@@ -40,7 +49,7 @@ section{
     justify-content: space-between;
     align-items: center;
 }
-.section2 p, .menu p{
+.section2 p{
     font-size: 1.36rem;
 }
 .section2 .buttons{
@@ -60,16 +69,17 @@ section{
     color: #F5BD02;
 }
 .section3 .image-card{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
-.card-images {
-  width: calc((100% / 4) - .4rem);
-  height: 200px;
-  object-fit: cover;
-  cursor: pointer;
-  transition: box-shadow 0.3s ease, filter 0.3s ease;
+
+.card-images{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 .card-images:hover{
     filter: brightness(0.7);
@@ -108,7 +118,7 @@ section{
   top: 0;
   right: 20px;
   padding: 0;
-  font-size: 2.5rem;
+  font-size: 4rem;
   color: white;
   cursor: pointer;
 }
@@ -121,7 +131,7 @@ section{
     padding: 10px;
     margin: 10px;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 0.5rem 1.5rem;
     border: 2px solid black;
     border-radius: 100px;
@@ -132,3 +142,4 @@ section{
     background-color: black;
     color: #F5BD02;
 }
+
